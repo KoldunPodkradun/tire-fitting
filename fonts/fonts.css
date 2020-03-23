@@ -1,4 +1,16 @@
 @font-face {
+    font-family: 'SF Pro Rounded';
+    src: url(FontsFree-Net-SF-Pro-Rounded-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url(FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'SF Pro Display';
     src: url('SFProDisplay-Medium.eot');
     src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'), url('SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'), url('SFProDisplay-Medium.woff2') format('woff2'), url('SFProDisplay-Medium.woff') format('woff'), url('SFProDisplay-Medium.ttf') format('truetype');

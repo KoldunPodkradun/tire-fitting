@@ -2,91 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf2b172-5a45-4943-8ef6-dd93f5163288" name="Default Changelist" comment="20.03.2020 18.50">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tire-fitting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/FontsFree-Net-SF-Pro-Rounded-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-BlackItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-BlackItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Heavy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Heavy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Heavy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Heavy.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-HeavyItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-HeavyItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-HeavyItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-HeavyItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-LightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-MediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-MediumItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-RegularItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-RegularItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-RegularItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-RegularItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Semibold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Semibold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Semibold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-SemiboldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-SemiboldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-SemiboldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-SemiboldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-ThinItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-ThinItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-ThinItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Ultralight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Ultralight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Ultralight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Ultralight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-UltralightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-UltralightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-UltralightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-UltralightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cross.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -102,10 +21,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="467">
+              <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -113,14 +32,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -138,13 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.calendar</find>
-      <find>.wrapper</find>
-      <find>.clients-list-item:first-child</find>
-      <find>input</find>
-      <find>.form</find>
-      <find>class=&quot;time&quot;</find>
-      <find>.input</find>
       <find>.clients-list-item &gt; *</find>
       <find>RTR23432</find>
       <find>.clients-list-item &gt; div:first-child</find>
@@ -163,11 +79,18 @@
       <find>.input[name=&quot;promo&quot;],</find>
       <find>flex-grow-2</find>
       <find>0px</find>
-      <find>px</find>
       <find>.clients-list-item</find>
       <find>popup-confirm</find>
       <find>popup-delete</find>
       <find>.tab</find>
+      <find>hidden</find>
+      <find>.popup-purple</find>
+      <find>.popup-purple-info</find>
+      <find>btn-auth</find>
+      <find>popup-purple-wrapp</find>
+      <find>popup-purple-info</find>
+      <find>.popup-purple-btn</find>
+      <find>px</find>
     </findStrings>
     <replaceStrings>
       <replace>align-items-center</replace>
@@ -185,10 +108,12 @@
       <list>
         <option value="$PROJECT_DIR$/css/style-custom.css" />
         <option value="$PROJECT_DIR$/css/delivery.css" />
-        <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/fonts/stylesheet.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/fonts/fonts.css" />
+        <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -282,7 +207,7 @@
       <workItem from="1584607754118" duration="262000" />
       <workItem from="1584707628305" duration="12365000" />
       <workItem from="1584947510284" duration="19027000" />
-      <workItem from="1584970155225" duration="1484000" />
+      <workItem from="1584970155225" duration="7596000" />
     </task>
     <task id="LOCAL-00001" summary="20.03.2020 18.50">
       <created>1584719275883</created>
@@ -298,11 +223,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584719419465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20.03.2020 18.50">
+      <created>1584971651339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584971651339</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33138000" />
+    <option name="totallyTimeSpent" value="39250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -368,29 +300,47 @@
         <state relative-caret-position="-1224" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_Kit_Slivki/UI_Kit_Slivki/css/fonts/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fonts/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="129" column="32" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="467">
+          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

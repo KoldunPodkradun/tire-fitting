@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 *:focus,
 *:active {
     text-decoration: none;
@@ -61,6 +66,18 @@ input:focus:-ms-input-placeholder {
     max-width: 100vw;
     min-height: 100vh;
     background-color: #2a193c;
+}
+
+.modal-content {
+    background-color: initial;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.opacity {
+    opacity: 0;
 }
 
 .border-purple {
@@ -244,10 +261,6 @@ lable.time {
     border-radius: 0.3125rem;
 }
 
-.items-time.hidden {
-    display: none !important;
-}
-
 .item {
     font-size: 0.875rem;
     font-weight: bold;
@@ -296,6 +309,99 @@ lable.time {
 
 .item-active p {
     color: rgba(0, 0, 0, .75);
+}
+
+.popup-purple {
+    font-family: 'SF Pro Rounded';
+    background-color: #6747E5;
+    border-radius: 0.9375rem;
+
+}
+
+#popupOne .popup-purple {
+    background-image: url(../img/wheel.svg);
+    background-repeat: no-repeat;
+    background-position: right 3.625rem bottom 4.25rem;
+}
+
+#popupOne .popup-purple {
+    padding: 2.5rem 3.125rem;
+}
+
+#popupTwo .popup-purple {
+    padding: 4rem;
+}
+
+.popup-purple-wrapp .modal-dialog,
+.popup-purple-wrapp .popup-purple {
+    max-width: 51.5rem;
+    min-height: 20rem;
+}
+
+.popup-purple-info {
+    position: relative;
+    display: inline-block;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2.0625rem;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.popup-purple-info:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -2.8125rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    background-image: url(../img/pencil_2.svg);
+    background-size: cover;
+}
+
+.popup-purple-title {
+    font-family: inherit;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 4.1875rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.popup-purple-subtitle {
+    font-family: inherit;
+    font-size: 1.625rem;
+    font-weight: 800;
+    line-height: 1.9375rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.popup-purple-descr {
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 2.4375rem;
+    color: #FFFFFF;
+}
+
+.popup-purple-btn {
+    font-family: inherit;
+    width: 20rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.3125rem;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    border-radius: 0.9375rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    text-align: center;
+    color: #20009C;
+    cursor: pointer;
 }
 
 .calendar,
