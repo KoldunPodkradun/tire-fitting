@@ -3,149 +3,402 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/grid.min.css">
+    <title>tire-fitting</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="wrapper d-flex justify-content-center align-items-center">
+<div class="wrapper d-flex justify-content-center align-items-center py-2">
+    <div class="btn-auth btn-login d-flex justify-content-center align-items-center">Лого</div>
+    <div class="btn-auth btn-logout d-flex justify-content-center align-items-center">Выход</div>
+
+    <!--   tireFitting content START-->
     <div class="container">
         <div class="d-flex justify-content-center align-items-center flex-column">
-            <div class="tabs d-flex justify-content-center align-items-center mb-4">
-                <div class="tab active d-flex justify-content-center align-items-center">Календарь записи</div>
-                <div class="tab d-flex justify-content-center align-items-center">Список клиентов</div>
+            <div class="nav nav-pills d-flex justify-content-center align-items-center mb-4">
+                <div class="tab active d-flex justify-content-center align-items-center" data-toggle="tab"
+                     data-target="#calendar">Календарь записи
+                </div>
+                <div class="tab d-flex justify-content-center align-items-center" data-toggle="tab"
+                     data-target="#clients-list">Список клиентов
+                </div>
             </div>
-            <div class="form-wrapp block d-flex flex-column align-items-center mb-4 p-4">
-                <form class="form d-flex flex-column">
-                    <div class="form-info-wrapp d-flex justify-content-between align-items-center mb-4">
-                        <div class="form-info">
-                            <span class="form-subtitle-day mr-1">Понедельник</span>
-                            <span class="form-subtitle-data">21.03.2020</span>
-                        </div>
-                        <p class="form-hit d-flex align-items-end">Заполните данные клиента</p>
-                    </div>
-                    <div class="input-wrapp border-purple d-flex justify-content-around align-items-center p-3 mb-4">
-                        <lable class="time">11.30</lable>
-                        <input type="text" class="input" placeholder="Имя">
-                        <input type="tel" class="input" placeholder="Номер Телефона">
-                        <input type="text" class="input" placeholder="R13">
-                        <input type="text" class="input promo" placeholder="Промо код">
-                    </div>
-                    <input class="btn-purple d-flex justify-content-center align-items-center align-self-end"
-                           type="submit" value="Сохранить">
-                </form>
-            </div>
-            <div class="calendar block d-flex flex-column py-3 px-4">
-                <div class="items-time w-100 d-flex flex-wrap align-items-start justify-content-lg-start">
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time item-active border-purple d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time item-booked d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time item-paid d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
-                    </div>
-                    <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
-                        11:30
+            <div class="tab-content">
+                <div id="calendar" class="tab-pane active">
+                    <div class="form-wrapp block d-flex flex-column align-items-center mb-4 py-4 px-5">
+                        <form class="form w-100 d-flex flex-column px-2">
+                            <div class="form-info-wrapp d-flex justify-content-between align-items-center mb-4">
+                                <div class="form-info">
+                                    <span class="form-subtitle-day mr-1">Понедельник</span>
+                                    <span class="form-subtitle-data">21.03.2020</span>
+                                </div>
+                                <p class="form-hit d-flex align-items-end">Заполните данные клиента</p>
+                            </div>
+                            <div class="input-wrapp border-purple d-flex justify-content-around align-items-center p-3 mb-4">
+                                <lable class="time">11.30</lable>
+                                <input class="input" type="text" name="name" placeholder="Имя">
+                                <input class="input" type="tel" name="phone" placeholder="Номер Телефона">
+                                <input class="input" type="text" name="r13" placeholder="R13">
+                                <input class="input" type="text" name="promo" placeholder="Промокод">
+                            </div>
+                            <div class="btn-wrapp d-flex align-self-end">
+                                <input class="btn btn-red d-flex justify-content-center align-items-center mr-3"
+                                       type="button" value="Перенести запись" data-toggle="modal"
+                                       data-target="#popupDelete" data-dismiss="modal">
+                                <input class="btn btn-purple d-flex justify-content-center align-items-center"
+                                       type="button" value="Перенести запись" data-toggle="modal"
+                                       data-target="#popupConfirm" data-dismiss="modal">
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="items-day d-flex">
-                    <div class="item item-day item-active border-purple d-flex flex-column justify-content-center align-items-center m-2">
-                        <span class="mb-1">ПН</span>
-                        <p>21.03</p>
+                <div id="clients-list" class="tab-pane">
+                    <div class="clients-list-wrapp block d-flex flex-column align-items-center p-4">
+                        <div class="w-100 d-flex justify-content-between align-items-center mb-4">
+                            <div class="form-info">
+                                <span class="form-subtitle-day mr-1">Понедельник</span>
+                                <span class="form-subtitle-data">21.03.2020</span>
+                            </div>
+                        </div>
+                        <div class="clients-list w-100 p-2">
+                            <div class="clients-list-item active w-100 d-flex justify-content-between align-items-stretch">
+                                <div class="clients-list-item-time d-flex align-items-center">12:00</div>
+                                <div class="clients-list-item-name d-flex align-items-center">Иван</div>
+                                <div class="clients-list-item-phone d-flex align-items-center ">+375 29 271
+                                    33 32
+                                </div>
+                                <div class="clients-list-item-r13 d-flex align-items-center ">R13</div>
+                                <div class="clients-list-item-promo d-flex align-items-center ">
+                                    <div class="promo">RTR23432</div>
+                                </div>
+                            </div>
+                            <div class="clients-list-item w-100 d-flex justify-content-between align-items-stretch">
+                                <div class="clients-list-item-time d-flex align-items-center">12:00</div>
+                                <div class="clients-list-item-name d-flex align-items-center">Иван</div>
+                                <div class="clients-list-item-phone d-flex align-items-center">+375 29 271
+                                    33 32
+                                </div>
+                                <div class="clients-list-item-r13 d-flex align-items-center">R13</div>
+                                <div class="clients-list-item-promo d-flex align-items-center ">
+                                    <div class="promo">ПРОМОКОД</div>
+                                </div>
+                            </div>
+                            <div class="clients-list-item active w-100 d-flex justify-content-between align-items-stretch">
+                                <div class="clients-list-item-time d-flex align-items-center">12:00</div>
+                                <div class="clients-list-item-name d-flex align-items-center">Иван</div>
+                                <div class="clients-list-item-phone d-flex align-items-center">+375 29 271
+                                    33 32
+                                </div>
+                                <div class="clients-list-item-r13 d-flex align-items-center">R13</div>
+                                <div class="clients-list-item-promo d-flex align-items-center ">
+                                    <div class="promo">RTR23432</div>
+                                </div>
+                            </div>
+                            <div class="clients-list-item active w-100 d-flex justify-content-between align-items-stretch">
+                                <div class="clients-list-item-time d-flex align-items-center">12:00</div>
+                                <div class="clients-list-item-name d-flex align-items-center">Иван</div>
+                                <div class="clients-list-item-phone d-flex align-items-center">+375 29 271
+                                    33 32
+                                </div>
+                                <div class="clients-list-item-r13 d-flex align-items-center">R13</div>
+                                <div class="clients-list-item-promo d-flex align-items-center ">
+                                    <div class="promo">RTR23432</div>
+                                </div>
+                            </div>
+                            <div class="clients-list-item active w-100 d-flex justify-content-between align-items-stretch">
+                                <div class="clients-list-item-time d-flex align-items-center">12:00</div>
+                                <div class="clients-list-item-name d-flex align-items-center">Иван</div>
+                                <div class="clients-list-item-phone d-flex align-items-center">+375 29 271
+                                    33 32
+                                </div>
+                                <div class="clients-list-item-r13 d-flex align-items-center">R13</div>
+                                <div class="clients-list-item-promo d-flex align-items-center ">
+                                    <div class="promo">RTR23432</div>
+                                </div>
+                            </div>
+                            <div class="clients-list-item active w-100 d-flex justify-content-between align-items-stretch">
+                                <div class="clients-list-item-time d-flex align-items-center">12:00</div>
+                                <div class="clients-list-item-name d-flex align-items-center">Иван</div>
+                                <div class="clients-list-item-phone d-flex align-items-center">+375 29 271
+                                    33 32
+                                </div>
+                                <div class="clients-list-item-r13 d-flex align-items-center">R13</div>
+                                <div class="clients-list-item-promo d-flex align-items-center ">
+                                    <div class="promo">RTR23432</div>
+                                </div>
+                            </div>
+                            <div class="clients-list-item active w-100 d-flex justify-content-between align-items-stretch">
+                                <div class="clients-list-item-time d-flex align-items-center">12:00</div>
+                                <div class="clients-list-item-name d-flex align-items-center">Иван</div>
+                                <div class="clients-list-item-phone d-flex align-items-center">+375 29 271
+                                    33 32
+                                </div>
+                                <div class="clients-list-item-r13 d-flex align-items-center">R13</div>
+                                <div class="clients-list-item-promo d-flex align-items-center ">
+                                    <div class="promo">RTR23432</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="item item-day item-booked d-flex flex-column justify-content-center align-items-center m-2">
-                        <span class="mb-1">ВТ</span>
-                        <p>21.03</p>
+                </div>
+                <div class="calendar block d-flex flex-column py-3 px-4">
+                    <div class="calendar-item">
+                        <div class="items-time w-100 d-flex flex-wrap align-items-start justify-content-lg-start">
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time item-active border-purple d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time item-booked d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time item-paid d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                        </div>
+                        <div class="items-day d-flex">
+                            <div class="item item-day item-active border-purple d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ПН</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day item-booked d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ВТ</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">СР</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ЧТ</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ПТ</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">СБ</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ВС</span>
+                                <p>21.03</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
-                        <span class="mb-1">СР</span>
-                        <p>21.03</p>
-                    </div>
-                    <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
-                        <span class="mb-1">ЧТ</span>
-                        <p>21.03</p>
-                    </div>
-                    <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
-                        <span class="mb-1">ПТ</span>
-                        <p>21.03</p>
-                    </div>
-                    <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
-                        <span class="mb-1">СБ</span>
-                        <p>21.03</p>
-                    </div>
-                    <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
-                        <span class="mb-1">ВС</span>
-                        <p>21.03</p>
+                    <div class="calendar-item">
+                        <div class="items-time w-100 d-flex flex-wrap align-items-start justify-content-start">
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time item-active border-purple d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time item-booked d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time item-paid d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                            <div class="item item-time d-flex flex-column justify-content-center align-items-center  m-2">
+                                11:30
+                            </div>
+                        </div>
+                        <div class="items-day d-flex">
+                            <div class="item item-day item-active border-purple d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ПН</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day item-booked d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ВТ</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">СР</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ЧТ</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ПТ</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">СБ</span>
+                                <p>21.03</p>
+                            </div>
+                            <div class="item item-day d-flex flex-column justify-content-center align-items-center m-2">
+                                <span class="mb-1">ВС</span>
+                                <p>21.03</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--   tireFitting content END-->
+
+    <!--    popupConfirm START-->
+    <div class="modal fade show" id="popupConfirm">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="popup d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="popup-title mb-5">Перенос записи на 21.03.2020 на 13:30</h5>
+                    <div class="btn btn-purple" data-dismiss="modal">Подтвердить</div>
+                    <div class="close" data-dismiss="modal"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    popupConfirm END-->
+
+    <!--    popupDelete START-->
+    <div class="modal fade" id="popupDelete">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="popup d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="popup-title mb-5">Вы действительно хотите удалить запись клиента?</h5>
+                    <div class="btn btn-red" data-dismiss="modal">Удалить запись</div>
+                    <div class="close" data-dismiss="modal"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    popupDelete END-->
 </div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
